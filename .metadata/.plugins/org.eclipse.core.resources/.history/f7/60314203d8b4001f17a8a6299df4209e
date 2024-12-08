@@ -1,0 +1,7 @@
+<service name="MainServiceClass" class="com.jsp.MainServiceClass">
+    <description>A service to add two numbers</description>
+    <messageReceivers>
+        <messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+                         class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </messageReceivers>
+</service>

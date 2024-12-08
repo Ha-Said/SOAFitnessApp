@@ -1,0 +1,47 @@
+package pkg;
+
+public class UserServ {
+	
+	private String userName;
+    private double dailyCalories;
+    private double dailyProtein;
+    private double dailyCarbs;
+    private double dailyFat;
+
+	    public UserServ() {
+	        this.userName = "DefaultUser"; 
+	    }
+	    public UserServ(String userName) {
+	        this.userName = userName;
+	    }
+	    
+	    public String getUserName() {
+	        return userName;
+	    }
+
+	    public void setUserName(String userName) {
+	        this.userName = userName;
+	    }
+	    public void setNutritionData(double calories, double protein, double carbs, double fat) {
+	        this.dailyCalories = calories;
+	        this.dailyProtein = protein;
+	        this.dailyCarbs = carbs;
+	        this.dailyFat = fat;
+	    }
+	    public String getNutritionData() {
+	        return "Nutrition Data for " + userName + ": " +
+	                "Total Calories: " + dailyCalories + " kcal " +
+	                "Total Protein: " + dailyProtein + "   " +
+	                "Total Carbs: " + dailyCarbs + "  " +
+	                "Total Fat: " + dailyFat + "  ";
+	    }
+	    public String resetNutritionData() {
+	        this.dailyCalories = 0.0;
+	        this.dailyProtein = 0.0;
+	        this.dailyCarbs = 0.0;
+	        this.dailyFat = 0.0;
+	        return "Nutrition data for " + userName + " has been reset.";
+	    }
+	    
+	}
+

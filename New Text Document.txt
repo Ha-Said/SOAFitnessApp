@@ -1,0 +1,1240 @@
+C:.
+├───.metadata
+│   │   .lock
+│   │   .lock_info
+│   │   .log
+│   │   version.ini
+│   │
+│   ├───.mylyn
+│   │   │   repositories.xml.zip
+│   │   │
+│   │   └───contexts
+│   └───.plugins
+│       ├───org.apache.axis2.facet
+│       │       status.properties
+│       │       war.properties
+│       │
+│       ├───org.eclipse.buildship.core
+│       │   └───gradle
+│       │           versions.json
+│       │
+│       ├───org.eclipse.core.resources
+│       │   │   0.snap
+│       │   │
+│       │   ├───.history
+│       │   │   ├───12
+│       │   │   │       a0e8f698a0b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───14
+│       │   │   │       5025f698a0b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───17
+│       │   │   │       10a0c44faeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───18
+│       │   │   │       a06469f1aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───1b
+│       │   │   │       f092bb67aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───1d
+│       │   │   │       705aa012afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───21
+│       │   │   │       b079240dd6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───24
+│       │   │   │       20478f13d7b4001f17a8a6299df4209e
+│       │   │   │       60e543579cb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───2c
+│       │   │   │       80dd4d05a4b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───2d
+│       │   │   │       b0817b779eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───2e
+│       │   │   │       c0cf44579cb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───3
+│       │   │   │       7010d612afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───32
+│       │   │   │       e0aa8e13d7b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───35
+│       │   │   │       60796c83d6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───36
+│       │   │   │       105485eaa3b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───3a
+│       │   │   │       0008d150a3b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───3b
+│       │   │   │       00894ebaa4b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───3c
+│       │   │   │       d0ec3f89abb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───4
+│       │   │   │       104df1e29bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───46
+│       │   │   │       b001f050a3b4001f1b8091f2ba034616
+│       │   │   │       c017ddbcd3b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───4c
+│       │   │   │       903d69f1aeb4001f1f17cf1f7a53bf4e
+│       │   │   │       b043a663acb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───4f
+│       │   │   │       10890bfed4b4001f17a8a6299df4209e
+│       │   │   │       80157197acb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───50
+│       │   │   │       70e961e7a2b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───52
+│       │   │   │       c0636d83d6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───54
+│       │   │   │       4068230dd6b4001f17a8a6299df4209e
+│       │   │   │       80a6834eacb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───57
+│       │   │   │       8040c34faeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───5e
+│       │   │   │       10f23ab39bb4001f1b8091f2ba034616
+│       │   │   │       40a4d150a3b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───62
+│       │   │   │       10e1bb67aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───68
+│       │   │   │       90e508b39bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───69
+│       │   │   │       30df12169fb4001f1b8091f2ba034616
+│       │   │   │       d0658620afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───6a
+│       │   │   │       e0fa9e12afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───6b
+│       │   │   │       90eb7e4eacb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───6d
+│       │   │   │       f051c44faeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───6f
+│       │   │   │       f09b9dfd9bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───7
+│       │   │   │       a0773f89abb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───71
+│       │   │   │       00529bfd9bb4001f1b8091f2ba034616
+│       │   │   │       2019760ba4b4001f1b8091f2ba034616
+│       │   │   │       50c0f577d6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───74
+│       │   │   │       60c77097acb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───75
+│       │   │   │       d0e85a4eacb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───77
+│       │   │   │       80e4cea1acb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───78
+│       │   │   │       b0c206b39bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───7d
+│       │   │   │       8004240dd6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───81
+│       │   │   │       9074c0ff9eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───86
+│       │   │   │       d0d68820afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───88
+│       │   │   │       6004ce6ba2b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───8a
+│       │   │   │       902538579cb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───8f
+│       │   │   │       90c10cfed4b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───91
+│       │   │   │       70639cfd9bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───93
+│       │   │   │       10adc1ff9eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───94
+│       │   │   │       50271b1dafb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───99
+│       │   │   │       f05e07b39bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───9a
+│       │   │   │       4051efe29bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───a
+│       │   │   │       309b4a89abb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───a5
+│       │   │   │       80293f89abb4001f1f17cf1f7a53bf4e
+│       │   │   │       90a15191aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───a8
+│       │   │   │       b02c091baeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───a9
+│       │   │   │       40de1466a2b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───aa
+│       │   │   │       500ca012afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───af
+│       │   │   │       d025482f9cb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───b1
+│       │   │   │       50250cfed4b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───b2
+│       │   │   │       202c68f1aeb4001f1f17cf1f7a53bf4e
+│       │   │   │       5049c2ff9eb4001f1b8091f2ba034616
+│       │   │   │       70454b05a4b4001f1b8091f2ba034616
+│       │   │   │       c089f0e29bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───b3
+│       │   │   │       60ffbfff9eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───b7
+│       │   │   │       a09bc0ff9eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───ba
+│       │   │   │       70c6efe29bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───bb
+│       │   │   │       b00ff798a0b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───bc
+│       │   │   │       706371b7d5b4001f17a8a6299df4209e
+│       │   │   │       904a08eca3b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───c4
+│       │   │   │       803638aaacb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───c5
+│       │   │   │       e0c1db09d7b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───c8
+│       │   │   │       807a5191aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───cb
+│       │   │   │       903c7197acb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───cd
+│       │   │   │       20119efd9bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───d1
+│       │   │   │       e0d74989abb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───d9
+│       │   │   │       30c79bfd9bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───db
+│       │   │   │       e0d7f0e29bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───e2
+│       │   │   │       50b43e89abb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───e3
+│       │   │   │       40b1bfff9eb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───e4
+│       │   │   │       809af698a0b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───e6
+│       │   │   │       a0156d83d6b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───ea
+│       │   │   │       50159cfd9bb4001f1b8091f2ba034616
+│       │   │   │       70b64d05a4b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───eb
+│       │   │   │       7073f698a0b4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───ec
+│       │   │   │       4029bc269fb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───ed
+│       │   │   │       60e38f13d7b4001f17a8a6299df4209e
+│       │   │   │
+│       │   │   ├───f3
+│       │   │   │       709708b39bb4001f1b8091f2ba034616
+│       │   │   │       f0248920afb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   ├───f6
+│       │   │   │       60b53bb39bb4001f1b8091f2ba034616
+│       │   │   │
+│       │   │   ├───fc
+│       │   │   │       6033ba67aeb4001f1f17cf1f7a53bf4e
+│       │   │   │
+│       │   │   └───ff
+│       │   │           00425091aeb4001f1f17cf1f7a53bf4e
+│       │   │
+│       │   ├───.projects
+│       │   │   ├───.org.eclipse.egit.core.cmp
+│       │   │   │       .location
+│       │   │   │       .markers.snap
+│       │   │   │       .syncinfo.snap
+│       │   │   │
+│       │   │   ├───Axis2WSTest
+│       │   │   │   │   .markers.snap
+│       │   │   │   │   .syncinfo.snap
+│       │   │   │   │
+│       │   │   │   ├───.indexes
+│       │   │   │   │   ├───af
+│       │   │   │   │   │       history.index
+│       │   │   │   │   │
+│       │   │   │   │   └───e4
+│       │   │   │   │       └───b9
+│       │   │   │   │           ├───22
+│       │   │   │   │           │   ├───3c
+│       │   │   │   │           │   │       history.index
+│       │   │   │   │           │   │
+│       │   │   │   │           │   └───81
+│       │   │   │   │           │       └───47
+│       │   │   │   │           │               history.index
+│       │   │   │   │           │
+│       │   │   │   │           └───b3
+│       │   │   │   │               ├───64
+│       │   │   │   │               │       history.index
+│       │   │   │   │               │
+│       │   │   │   │               ├───a8
+│       │   │   │   │               │   │   history.index
+│       │   │   │   │               │   │
+│       │   │   │   │               │   ├───27
+│       │   │   │   │               │   │   └───81
+│       │   │   │   │               │   │       └───47
+│       │   │   │   │               │   │               history.index
+│       │   │   │   │               │   │
+│       │   │   │   │               │   └───5e
+│       │   │   │   │               │       └───3c
+│       │   │   │   │               │           ├───81
+│       │   │   │   │               │           │   └───47
+│       │   │   │   │               │           │           history.index
+│       │   │   │   │               │           │
+│       │   │   │   │               │           └───f9
+│       │   │   │   │               │                   history.index
+│       │   │   │   │               │
+│       │   │   │   │               └───f9
+│       │   │   │   │                       history.index
+│       │   │   │   │
+│       │   │   │   ├───org.eclipse.jdt.apt.core
+│       │   │   │   ├───org.eclipse.jdt.core
+│       │   │   │   └───org.eclipse.wst.jsdt.core
+│       │   │   ├───Servers
+│       │   │   │   │   .markers.snap
+│       │   │   │   │   .syncinfo.snap
+│       │   │   │   │
+│       │   │   │   └───.indexes
+│       │   │   │       └───75
+│       │   │   │               history.index
+│       │   │   │
+│       │   │   └───tp2SOA
+│       │   │       │   .markers.snap
+│       │   │       │   .syncinfo.snap
+│       │   │       │
+│       │   │       ├───.indexes
+│       │   │       │   ├───af
+│       │   │       │   │       history.index
+│       │   │       │   │
+│       │   │       │   └───e4
+│       │   │       │       └───b9
+│       │   │       │           ├───22
+│       │   │       │           │   └───91
+│       │   │       │           │           history.index
+│       │   │       │           │
+│       │   │       │           └───b3
+│       │   │       │               ├───64
+│       │   │       │               │       history.index
+│       │   │       │               │
+│       │   │       │               └───a8
+│       │   │       │                   │   history.index
+│       │   │       │                   │
+│       │   │       │                   ├───85
+│       │   │       │                   │       history.index
+│       │   │       │                   │
+│       │   │       │                   └───95
+│       │   │       │                       └───91
+│       │   │       │                               history.index
+│       │   │       │
+│       │   │       ├───org.eclipse.jdt.apt.core
+│       │   │       ├───org.eclipse.jdt.core
+│       │   │       └───org.eclipse.wst.jsdt.core
+│       │   ├───.root
+│       │   │   │   .markers.snap
+│       │   │   │
+│       │   │   └───.indexes
+│       │   │           properties.index
+│       │   │
+│       │   └───.safetable
+│       │           org.eclipse.core.resources
+│       │
+│       ├───org.eclipse.core.runtime
+│       │   └───.settings
+│       │           org.eclipse.core.resources.prefs
+│       │           org.eclipse.debug.ui.prefs
+│       │           org.eclipse.egit.core.prefs
+│       │           org.eclipse.jdt.core.prefs
+│       │           org.eclipse.jdt.junit.prefs
+│       │           org.eclipse.jdt.launching.prefs
+│       │           org.eclipse.jdt.ui.prefs
+│       │           org.eclipse.jsch.core.prefs
+│       │           org.eclipse.jst.j2ee.webservice.ui.prefs
+│       │           org.eclipse.jst.server.tomcat.core.prefs
+│       │           org.eclipse.jst.ws.axis2.core.prefs
+│       │           org.eclipse.mylyn.context.core.prefs
+│       │           org.eclipse.mylyn.monitor.ui.prefs
+│       │           org.eclipse.mylyn.tasks.ui.prefs
+│       │           org.eclipse.pde.api.tools.prefs
+│       │           org.eclipse.ui.browser.prefs
+│       │           org.eclipse.ui.navigator.prefs
+│       │           org.eclipse.ui.prefs
+│       │           org.eclipse.ui.workbench.prefs
+│       │           org.eclipse.wst.command.env.prefs
+│       │           org.eclipse.wst.jsdt.ui.prefs
+│       │           org.eclipse.wst.server.core.prefs
+│       │           org.eclipse.wst.server.discovery.prefs
+│       │           org.eclipse.wst.server.ui.prefs
+│       │           org.eclipse.wst.ws.service.policy.prefs
+│       │
+│       ├───org.eclipse.debug.core
+│       │   └───.launches
+│       │           Axis2WSTest.launch
+│       │           Tomcat v9.0 Server at localhost.launch
+│       │
+│       ├───org.eclipse.debug.ui
+│       │       launchConfigurationHistory.xml
+│       │
+│       ├───org.eclipse.e4.workbench
+│       │       workbench.xmi
+│       │
+│       ├───org.eclipse.eclemma.core
+│       │   └───.execdata
+│       ├───org.eclipse.egit.core
+│       │   └───.org.eclipse.egit.core.cmp
+│       │       │   .project
+│       │       │
+│       │       └───.settings
+│       │               org.eclipse.core.resources.prefs
+│       │
+│       ├───org.eclipse.egit.ui
+│       ├───org.eclipse.jdt.core
+│       │       1055017055.index
+│       │       1081906894.index
+│       │       116018550.index
+│       │       1205076381.index
+│       │       1248179017.index
+│       │       1267848611.index
+│       │       1305448406.index
+│       │       1360480084.index
+│       │       1385853354.index
+│       │       1483333700.index
+│       │       176714740.index
+│       │       1778016065.index
+│       │       1781417004.index
+│       │       1848954025.index
+│       │       1865797976.index
+│       │       1922369617.index
+│       │       1969695714.index
+│       │       2008152314.index
+│       │       2021475242.index
+│       │       2086740015.index
+│       │       2192592064.index
+│       │       2217381677.index
+│       │       2272532046.index
+│       │       2381540661.index
+│       │       2494746290.index
+│       │       2587464316.index
+│       │       2664092917.index
+│       │       2672046149.index
+│       │       2704312559.index
+│       │       2814676972.index
+│       │       2949952338.index
+│       │       2970152602.index
+│       │       3028321403.index
+│       │       3047433531.index
+│       │       3057836161.index
+│       │       3100166400.index
+│       │       3230201312.index
+│       │       3265821225.index
+│       │       3279882099.index
+│       │       3380729925.index
+│       │       3622239922.index
+│       │       3643010858.index
+│       │       3713269432.index
+│       │       372608544.index
+│       │       3731817059.index
+│       │       3795462637.index
+│       │       3832019150.index
+│       │       398136071.index
+│       │       4042610150.index
+│       │       4128192823.index
+│       │       4152641397.index
+│       │       4277312516.index
+│       │       487948655.index
+│       │       536367166.index
+│       │       591769700.index
+│       │       617531633.index
+│       │       880901205.index
+│       │       886618186.index
+│       │       888947857.index
+│       │       914222989.index
+│       │       987316611.index
+│       │       externalLibsTimeStamps
+│       │       javaLikeNames.txt
+│       │       participantsIndexNames.txt
+│       │       savedIndexNames.txt
+│       │       variablesAndContainers.dat
+│       │
+│       ├───org.eclipse.jdt.launching
+│       │       .install.xml
+│       │       libraryInfos.xml
+│       │
+│       ├───org.eclipse.jdt.ui
+│       │   └───jdt-images
+│       │           0.png
+│       │
+│       ├───org.eclipse.jst.j2ee
+│       │       earLibrariesCache.index
+│       │
+│       ├───org.eclipse.jst.j2ee.ui
+│       ├───org.eclipse.jst.j2ee.web
+│       │       webLibrariesCache.index
+│       │
+│       ├───org.eclipse.jst.jsp.core
+│       │   ├───jspsearch
+│       │   │       2928952911.index
+│       │   │       3539781721.index
+│       │   │       552189731.index
+│       │   │
+│       │   ├───taglibindex
+│       │   └───translators
+│       ├───org.eclipse.jst.server.core
+│       ├───org.eclipse.jst.ws.axis.consumption.core
+│       ├───org.eclipse.jst.ws.axis.creation.ui
+│       ├───org.eclipse.jst.ws.axis2
+│       ├───org.eclipse.ltk.core.refactoring
+│       │   └───.refactorings
+│       │       ├───.workspace
+│       │       │   └───2024
+│       │       │       └───12
+│       │       │           └───49
+│       │       │                   refactorings.history
+│       │       │                   refactorings.index
+│       │       │
+│       │       ├───Axis2WSTest
+│       │       │   └───2024
+│       │       │       └───12
+│       │       │           └───49
+│       │       │                   refactorings.history
+│       │       │                   refactorings.index
+│       │       │
+│       │       └───tp2SOA
+│       │           └───2024
+│       │               └───12
+│       │                   └───49
+│       │                           refactorings.history
+│       │                           refactorings.index
+│       │
+│       ├───org.eclipse.ltk.ui.refactoring
+│       ├───org.eclipse.m2e.core
+│       │       workspaceState.ser
+│       │
+│       ├───org.eclipse.m2e.logback
+│       │       0.log
+│       │       logback.2.7.0.20241001-1350.xml
+│       │
+│       ├───org.eclipse.mylyn.context.core
+│       │   └───contexts
+│       ├───org.eclipse.mylyn.github.ui
+│       ├───org.eclipse.mylyn.tasks.ui
+│       ├───org.eclipse.oomph.setup
+│       │       workspace.setup
+│       │
+│       ├───org.eclipse.oomph.setup.ui
+│       ├───org.eclipse.pde.api.tools
+│       ├───org.eclipse.pde.core
+│       │   ├───.cache
+│       │   └───.p2
+│       │       └───org.eclipse.equinox.p2.engine
+│       │           └───profileRegistry
+│       ├───org.eclipse.tips.ide
+│       ├───org.eclipse.tm.terminal.view.ui
+│       ├───org.eclipse.ui.editors
+│       ├───org.eclipse.ui.intro
+│       │       introstate
+│       │
+│       ├───org.eclipse.ui.workbench
+│       │       workingsets.xml
+│       │
+│       ├───org.eclipse.ui.workbench.texteditor
+│       ├───org.eclipse.userstorage.oauth
+│       ├───org.eclipse.wildwebdeveloper.xml
+│       │       system-catalog.xml
+│       │
+│       ├───org.eclipse.wst.common.modulecore
+│       ├───org.eclipse.wst.internet.cache
+│       ├───org.eclipse.wst.jsdt.core
+│       │   │   externalLibsTimeStamps
+│       │   │   variablesAndContainers.dat
+│       │   │
+│       │   ├───indexes
+│       │   │       1385853354.index
+│       │   │       1781417004.index
+│       │   │       2733967141.index
+│       │   │       313265185.index
+│       │   │       352865922.index
+│       │   │       3606032388.index
+│       │   │       753778562.index
+│       │   │       savedIndexNames.txt
+│       │   │
+│       │   └───libraries
+│       │           baseBrowserLibrary.js
+│       │           browserWindow.js
+│       │           dom5.js
+│       │           system.js
+│       │           xhr.js
+│       │
+│       ├───org.eclipse.wst.jsdt.ui
+│       ├───org.eclipse.wst.server.core
+│       │   │   modules.xml
+│       │   │   publish.xml
+│       │   │   servers.xml
+│       │   │   tmp-data.xml
+│       │   │
+│       │   ├───publish
+│       │   │       publish0.dat
+│       │   │
+│       │   └───tmp0
+│       │       ├───conf
+│       │       │   │   catalina.policy
+│       │       │   │   catalina.properties
+│       │       │   │   context.xml
+│       │       │   │   server.xml
+│       │       │   │   tomcat-users.xml
+│       │       │   │   web.xml
+│       │       │   │
+│       │       │   └───Catalina
+│       │       │       └───localhost
+│       │       ├───logs
+│       │       │       localhost_access_log.2024-12-07.txt
+│       │       │
+│       │       ├───temp
+│       │       ├───webapps
+│       │       ├───work
+│       │       │   └───Catalina
+│       │       │       └───localhost
+│       │       │           ├───Axis2WSTest
+│       │       │           │   ├───org
+│       │       │           │   │   └───apache
+│       │       │           │   │       └───jsp
+│       │       │           │   │           └───axis2_002dweb
+│       │       │           │   │               │   HappyAxis_jsp.class
+│       │       │           │   │               │   HappyAxis_jsp.java
+│       │       │           │   │               │   index_jsp.class
+│       │       │           │   │               │   index_jsp.java
+│       │       │           │   │               │   listServices_jsp.class
+│       │       │           │   │               │   listServices_jsp.java
+│       │       │           │   │               │
+│       │       │           │   │               └───include
+│       │       │           │   │                       httpbase_jsp.class
+│       │       │           │   │                       httpbase_jsp.java
+│       │       │           │   │                       link_002dfooter_jsp.class
+│       │       │           │   │                       link_002dfooter_jsp.java
+│       │       │           │   │
+│       │       │           │   └───_axis2
+│       │       │           ├───ROOT
+│       │       │           └───tp2SOA
+│       │       └───wtpwebapps
+│       │           ├───Axis2WSTest
+│       │           │   ├───axis2-web
+│       │           │   │   │   ActivateService.jsp
+│       │           │   │   │   admin.jsp
+│       │           │   │   │   deleteService.jsp
+│       │           │   │   │   disengage.jsp
+│       │           │   │   │   EngageToServiceGroup.jsp
+│       │           │   │   │   engagingglobally.jsp
+│       │           │   │   │   engagingtoanoperation.jsp
+│       │           │   │   │   engagingtoaservice.jsp
+│       │           │   │   │   error.jsp
+│       │           │   │   │   errorModule.jsp
+│       │           │   │   │   globalModules.jsp
+│       │           │   │   │   HappyAxis.jsp
+│       │           │   │   │   InActivateService.jsp
+│       │           │   │   │   index.jsp
+│       │           │   │   │   LeftFrame.jsp
+│       │           │   │   │   listFaultyService.jsp
+│       │           │   │   │   listGroupService.jsp
+│       │           │   │   │   listModules.jsp
+│       │           │   │   │   listService.jsp
+│       │           │   │   │   ListServiceGroup.jsp
+│       │           │   │   │   listServices.jsp
+│       │           │   │   │   listSingleService.jsp
+│       │           │   │   │   Login.jsp
+│       │           │   │   │   MainFrame.jsp
+│       │           │   │   │   SelectService.jsp
+│       │           │   │   │   ServiceParaEdit.jsp
+│       │           │   │   │   TopFrame.jsp
+│       │           │   │   │   upload.jsp
+│       │           │   │   │   ViewContexts.jsp
+│       │           │   │   │   ViewGlobalHandlers.jsp
+│       │           │   │   │   viewphases.jsp
+│       │           │   │   │   viewServiceContext.jsp
+│       │           │   │   │   viewServiceGroupContext.jsp
+│       │           │   │   │   ViewServiceHandlers.jsp
+│       │           │   │   │
+│       │           │   │   ├───css
+│       │           │   │   │       axis-style.css
+│       │           │   │   │
+│       │           │   │   ├───Error
+│       │           │   │   │       AuthError.html
+│       │           │   │   │       error404.jsp
+│       │           │   │   │       error500.jsp
+│       │           │   │   │       GenError.html
+│       │           │   │   │
+│       │           │   │   ├───images
+│       │           │   │   │       asf-logo.gif
+│       │           │   │   │       axis.gif
+│       │           │   │   │       axis.jpg
+│       │           │   │   │       axis_l.jpg
+│       │           │   │   │
+│       │           │   │   └───include
+│       │           │   │           adminfooter.inc
+│       │           │   │           adminheader.inc
+│       │           │   │           adminheader.jsp
+│       │           │   │           footer.inc
+│       │           │   │           header.inc
+│       │           │   │           httpbase.jsp
+│       │           │   │           link-footer.inc
+│       │           │   │           link-footer.jsp
+│       │           │   │
+│       │           │   ├───META-INF
+│       │           │   │       MANIFEST.MF
+│       │           │   │
+│       │           │   ├───org
+│       │           │   │   └───apache
+│       │           │   │       └───axis2
+│       │           │   │           └───soapmonitor
+│       │           │   │               └───applet
+│       │           │   │                       SOAPMonitorApplet$ServiceFilterPanel.class
+│       │           │   │                       SOAPMonitorApplet$SOAPMonitorData.class
+│       │           │   │                       SOAPMonitorApplet$SOAPMonitorFilter.class
+│       │           │   │                       SOAPMonitorApplet$SOAPMonitorPage.class
+│       │           │   │                       SOAPMonitorApplet$SOAPMonitorTableModel.class
+│       │           │   │                       SOAPMonitorApplet$SOAPMonitorTextArea.class
+│       │           │   │                       SOAPMonitorApplet.class
+│       │           │   │
+│       │           │   ├───WEB-INF
+│       │           │   │   │   web.xml
+│       │           │   │   │
+│       │           │   │   ├───attachments
+│       │           │   │   ├───classes
+│       │           │   │   │   │   commons-logging.properties
+│       │           │   │   │   │   log4j.properties
+│       │           │   │   │   │
+│       │           │   │   │   ├───com
+│       │           │   │   │   │   └───jsp
+│       │           │   │   │   │           MainServiceClass.class
+│       │           │   │   │   │           package-info.class
+│       │           │   │   │   │
+│       │           │   │   │   ├───META-INF
+│       │           │   │   │   │       LICENSE
+│       │           │   │   │   │       NOTICE
+│       │           │   │   │   │
+│       │           │   │   │   └───org
+│       │           │   │   │       └───apache
+│       │           │   │   │           └───axis2
+│       │           │   │   │               ├───transport
+│       │           │   │   │               │   └───http
+│       │           │   │   │               │           AxisAdminServlet.class
+│       │           │   │   │               │
+│       │           │   │   │               └───webapp
+│       │           │   │   │                       AdminAgent.class
+│       │           │   │   │                       AxisAdminServlet.class
+│       │           │   │   │
+│       │           │   │   ├───conf
+│       │           │   │   │       axis2.xml
+│       │           │   │   │
+│       │           │   │   ├───lib
+│       │           │   │   │       activation-1.1.jar
+│       │           │   │   │       activation-LICENSE.txt
+│       │           │   │   │       antlr-2-LICENSE.txt
+│       │           │   │   │       antlr-2.7.7.jar
+│       │           │   │   │       axiom-api-1.2.13.jar
+│       │           │   │   │       axiom-api-LICENSE.txt
+│       │           │   │   │       axiom-dom-1.2.13.jar
+│       │           │   │   │       axiom-dom-LICENSE.txt
+│       │           │   │   │       axiom-impl-1.2.13.jar
+│       │           │   │   │       axiom-impl-LICENSE.txt
+│       │           │   │   │       axis.jar
+│       │           │   │   │       axis2-adb-1.6.2.jar
+│       │           │   │   │       axis2-adb-codegen-1.6.2.jar
+│       │           │   │   │       axis2-clustering-1.6.2.jar
+│       │           │   │   │       axis2-codegen-1.6.2.jar
+│       │           │   │   │       axis2-corba-1.6.2.jar
+│       │           │   │   │       axis2-fastinfoset-1.6.2.jar
+│       │           │   │   │       axis2-java2wsdl-1.6.2.jar
+│       │           │   │   │       axis2-jaxbri-1.6.2.jar
+│       │           │   │   │       axis2-jaxws-1.6.2.jar
+│       │           │   │   │       axis2-jibx-1.6.2.jar
+│       │           │   │   │       axis2-json-1.6.2.jar
+│       │           │   │   │       axis2-kernel-1.6.2.jar
+│       │           │   │   │       axis2-LICENSE.txt
+│       │           │   │   │       axis2-metadata-1.6.2.jar
+│       │           │   │   │       axis2-mtompolicy-1.6.2.jar
+│       │           │   │   │       axis2-saaj-1.6.2.jar
+│       │           │   │   │       axis2-soapmonitor-servlet-1.6.2.jar
+│       │           │   │   │       axis2-spring-1.6.2.jar
+│       │           │   │   │       axis2-transport-http-1.6.2.jar
+│       │           │   │   │       axis2-transport-local-1.6.2.jar
+│       │           │   │   │       axis2-xmlbeans-1.6.2.jar
+│       │           │   │   │       commons-cli-1.2.jar
+│       │           │   │   │       commons-cli-LICENSE.txt
+│       │           │   │   │       commons-codec-1.3.jar
+│       │           │   │   │       commons-codec-LICENSE.txt
+│       │           │   │   │       commons-discovery-0.2.jar
+│       │           │   │   │       commons-fileupload-1.2.jar
+│       │           │   │   │       commons-fileupload-LICENSE.txt
+│       │           │   │   │       commons-httpclient-3.1.jar
+│       │           │   │   │       commons-httpclient-LICENSE.txt
+│       │           │   │   │       commons-io-1.4.jar
+│       │           │   │   │       commons-io-LICENSE.txt
+│       │           │   │   │       commons-logging-1.1.1.jar
+│       │           │   │   │       commons-logging-LICENSE.txt
+│       │           │   │   │       commons-logging.jar
+│       │           │   │   │       geronimo-stax-api_1.0_spec-1.0.1.jar
+│       │           │   │   │       httpcore-4.0.jar
+│       │           │   │   │       httpcore-LICENSE.txt
+│       │           │   │   │       jaxrpc.jar
+│       │           │   │   │       log4j-1.2.15.jar
+│       │           │   │   │       log4j-LICENSE.txt
+│       │           │   │   │       mail-1.4.jar
+│       │           │   │   │       mail-LICENSE.txt
+│       │           │   │   │       neethi-3.0.2.jar
+│       │           │   │   │       neethi-LICENSE.txt
+│       │           │   │   │       saaj.jar
+│       │           │   │   │       woden-api-1.0M9.jar
+│       │           │   │   │       woden-api-LICENSE.txt
+│       │           │   │   │       woden-impl-commons-1.0M9.jar
+│       │           │   │   │       woden-impl-commons-LICENSE.txt
+│       │           │   │   │       woden-impl-dom-1.0M9.jar
+│       │           │   │   │       woden-impl-dom-LICENSE.txt
+│       │           │   │   │       wsdl4j-1.6.2.jar
+│       │           │   │   │       wsdl4j-LICENSE.txt
+│       │           │   │   │       wsdl4j.jar
+│       │           │   │   │       wstx-asl-3.2.9.jar
+│       │           │   │   │       wstx-LICENSE.txt
+│       │           │   │   │       xmlbeans-2.3.0.jar
+│       │           │   │   │       xmlbeans-LICENSE.txt
+│       │           │   │   │       XmlSchema-1.4.7.jar
+│       │           │   │   │       XmlSchema-LICENSE.txt
+│       │           │   │   │
+│       │           │   │   ├───MainServiceClassService
+│       │           │   │   │   └───com
+│       │           │   │   │       └───jsp
+│       │           │   │   │               deploy.wsdd
+│       │           │   │   │               deploy.wsdd.bak
+│       │           │   │   │               undeploy.wsdd
+│       │           │   │   │
+│       │           │   │   ├───modules
+│       │           │   │   │       addressing-1.6.2.mar
+│       │           │   │   │       axis2-jaxws-mar-1.6.2.mar
+│       │           │   │   │       mex-1.6.2.mar
+│       │           │   │   │       modules.list
+│       │           │   │   │       mtompolicy-1.6.2.mar
+│       │           │   │   │       ping-1.6.2.mar
+│       │           │   │   │       scripting-1.6.2.mar
+│       │           │   │   │       soapmonitor-1.6.2.mar
+│       │           │   │   │
+│       │           │   │   └───services
+│       │           │   │       │   services.list
+│       │           │   │       │   version-1.6.2.aar
+│       │           │   │       │
+│       │           │   │       └───MainServiceClass
+│       │           │   │           ├───com
+│       │           │   │           │   └───jsp
+│       │           │   │           │           MainServiceClass.class
+│       │           │   │           │           package-info.class
+│       │           │   │           │
+│       │           │   │           └───META-INF
+│       │           │   │                   services.xml
+│       │           │   │
+│       │           │   └───wsdl
+│       │           │           MainServiceClass.wsdl
+│       │           │
+│       │           ├───ROOT
+│       │           │   └───WEB-INF
+│       │           │           web.xml
+│       │           │
+│       │           └───tp2SOA
+│       │               ├───META-INF
+│       │               │       MANIFEST.MF
+│       │               │
+│       │               ├───WEB-INF
+│       │               │   │   server-config.wsdd
+│       │               │   │   web.xml
+│       │               │   │
+│       │               │   ├───attachments
+│       │               │   ├───classes
+│       │               │   │   └───tp2SOA
+│       │               │   │           HelloWorld.class
+│       │               │   │           package-info.class
+│       │               │   │
+│       │               │   ├───HelloWorldService
+│       │               │   │   └───tp2SOA
+│       │               │   │           deploy.wsdd
+│       │               │   │           deploy.wsdd.bak
+│       │               │   │           undeploy.wsdd
+│       │               │   │
+│       │               │   └───lib
+│       │               │           axis.jar
+│       │               │           commons-discovery-0.2.jar
+│       │               │           commons-logging.jar
+│       │               │           jaxrpc.jar
+│       │               │           saaj.jar
+│       │               │           wsdl4j.jar
+│       │               │
+│       │               └───wsdl
+│       │                       HelloWorld.wsdl
+│       │
+│       ├───org.eclipse.wst.server.discovery
+│       ├───org.eclipse.wst.server.ui
+│       ├───org.eclipse.wst.sse.core
+│       │       task-tags.properties
+│       │
+│       ├───org.eclipse.wst.sse.ui
+│       ├───org.eclipse.wst.validation
+│       ├───org.eclipse.wst.ws
+│       ├───org.eclipse.wst.ws.explorer
+│       │       favorites.wsil
+│       │
+│       ├───org.eclipse.wst.ws.ui
+│       └───org.eclipse.wst.xml.core
+│               default_catalog.xml
+│               system_catalog.xml
+│
+├───Axis2WSTest
+│   │   .classpath
+│   │   .project
+│   │
+│   ├───.settings
+│   │       .jsdtscope
+│   │       org.eclipse.core.resources.prefs
+│   │       org.eclipse.jdt.core.prefs
+│   │       org.eclipse.jst.ws.cxf.core.prefs
+│   │       org.eclipse.wst.common.component
+│   │       org.eclipse.wst.common.project.facet.core.xml
+│   │       org.eclipse.wst.jsdt.ui.superType.container
+│   │       org.eclipse.wst.jsdt.ui.superType.name
+│   │       org.eclipse.wst.validation.prefs
+│   │
+│   ├───build
+│   │   └───classes
+│   │       └───com
+│   │           └───jsp
+│   │                   MainServiceClass.class
+│   │                   package-info.class
+│   │
+│   └───src
+│       └───main
+│           ├───java
+│           │   └───com
+│           │       └───jsp
+│           │               MainServiceClass.java
+│           │               package-info.java
+│           │
+│           └───webapp
+│               ├───axis2-web
+│               │   │   ActivateService.jsp
+│               │   │   admin.jsp
+│               │   │   deleteService.jsp
+│               │   │   disengage.jsp
+│               │   │   EngageToServiceGroup.jsp
+│               │   │   engagingglobally.jsp
+│               │   │   engagingtoanoperation.jsp
+│               │   │   engagingtoaservice.jsp
+│               │   │   error.jsp
+│               │   │   errorModule.jsp
+│               │   │   globalModules.jsp
+│               │   │   HappyAxis.jsp
+│               │   │   InActivateService.jsp
+│               │   │   index.jsp
+│               │   │   LeftFrame.jsp
+│               │   │   listFaultyService.jsp
+│               │   │   listGroupService.jsp
+│               │   │   listModules.jsp
+│               │   │   listService.jsp
+│               │   │   ListServiceGroup.jsp
+│               │   │   listServices.jsp
+│               │   │   listSingleService.jsp
+│               │   │   Login.jsp
+│               │   │   MainFrame.jsp
+│               │   │   SelectService.jsp
+│               │   │   ServiceParaEdit.jsp
+│               │   │   TopFrame.jsp
+│               │   │   upload.jsp
+│               │   │   ViewContexts.jsp
+│               │   │   ViewGlobalHandlers.jsp
+│               │   │   viewphases.jsp
+│               │   │   viewServiceContext.jsp
+│               │   │   viewServiceGroupContext.jsp
+│               │   │   ViewServiceHandlers.jsp
+│               │   │
+│               │   ├───css
+│               │   │       axis-style.css
+│               │   │
+│               │   ├───Error
+│               │   │       AuthError.html
+│               │   │       error404.jsp
+│               │   │       error500.jsp
+│               │   │       GenError.html
+│               │   │
+│               │   ├───images
+│               │   │       asf-logo.gif
+│               │   │       axis.gif
+│               │   │       axis.jpg
+│               │   │       axis_l.jpg
+│               │   │
+│               │   └───include
+│               │           adminfooter.inc
+│               │           adminheader.inc
+│               │           adminheader.jsp
+│               │           footer.inc
+│               │           header.inc
+│               │           httpbase.jsp
+│               │           link-footer.inc
+│               │           link-footer.jsp
+│               │
+│               ├───META-INF
+│               │       MANIFEST.MF
+│               │
+│               ├───org
+│               │   └───apache
+│               │       └───axis2
+│               │           └───soapmonitor
+│               │               └───applet
+│               │                       SOAPMonitorApplet$ServiceFilterPanel.class
+│               │                       SOAPMonitorApplet$SOAPMonitorData.class
+│               │                       SOAPMonitorApplet$SOAPMonitorFilter.class
+│               │                       SOAPMonitorApplet$SOAPMonitorPage.class
+│               │                       SOAPMonitorApplet$SOAPMonitorTableModel.class
+│               │                       SOAPMonitorApplet$SOAPMonitorTextArea.class
+│               │                       SOAPMonitorApplet.class
+│               │
+│               ├───WEB-INF
+│               │   │   web.xml
+│               │   │
+│               │   ├───classes
+│               │   │   │   commons-logging.properties
+│               │   │   │   log4j.properties
+│               │   │   │
+│               │   │   ├───META-INF
+│               │   │   │       LICENSE
+│               │   │   │       NOTICE
+│               │   │   │
+│               │   │   └───org
+│               │   │       └───apache
+│               │   │           └───axis2
+│               │   │               ├───transport
+│               │   │               │   └───http
+│               │   │               │           AxisAdminServlet.class
+│               │   │               │
+│               │   │               └───webapp
+│               │   │                       AdminAgent.class
+│               │   │                       AxisAdminServlet.class
+│               │   │
+│               │   ├───conf
+│               │   │       axis2.xml
+│               │   │
+│               │   ├───lib
+│               │   │       activation-1.1.jar
+│               │   │       activation-LICENSE.txt
+│               │   │       antlr-2-LICENSE.txt
+│               │   │       antlr-2.7.7.jar
+│               │   │       axiom-api-1.2.13.jar
+│               │   │       axiom-api-LICENSE.txt
+│               │   │       axiom-dom-1.2.13.jar
+│               │   │       axiom-dom-LICENSE.txt
+│               │   │       axiom-impl-1.2.13.jar
+│               │   │       axiom-impl-LICENSE.txt
+│               │   │       axis.jar
+│               │   │       axis2-adb-1.6.2.jar
+│               │   │       axis2-adb-codegen-1.6.2.jar
+│               │   │       axis2-clustering-1.6.2.jar
+│               │   │       axis2-codegen-1.6.2.jar
+│               │   │       axis2-corba-1.6.2.jar
+│               │   │       axis2-fastinfoset-1.6.2.jar
+│               │   │       axis2-java2wsdl-1.6.2.jar
+│               │   │       axis2-jaxbri-1.6.2.jar
+│               │   │       axis2-jaxws-1.6.2.jar
+│               │   │       axis2-jibx-1.6.2.jar
+│               │   │       axis2-json-1.6.2.jar
+│               │   │       axis2-kernel-1.6.2.jar
+│               │   │       axis2-LICENSE.txt
+│               │   │       axis2-metadata-1.6.2.jar
+│               │   │       axis2-mtompolicy-1.6.2.jar
+│               │   │       axis2-saaj-1.6.2.jar
+│               │   │       axis2-soapmonitor-servlet-1.6.2.jar
+│               │   │       axis2-spring-1.6.2.jar
+│               │   │       axis2-transport-http-1.6.2.jar
+│               │   │       axis2-transport-local-1.6.2.jar
+│               │   │       axis2-xmlbeans-1.6.2.jar
+│               │   │       commons-cli-1.2.jar
+│               │   │       commons-cli-LICENSE.txt
+│               │   │       commons-codec-1.3.jar
+│               │   │       commons-codec-LICENSE.txt
+│               │   │       commons-discovery-0.2.jar
+│               │   │       commons-fileupload-1.2.jar
+│               │   │       commons-fileupload-LICENSE.txt
+│               │   │       commons-httpclient-3.1.jar
+│               │   │       commons-httpclient-LICENSE.txt
+│               │   │       commons-io-1.4.jar
+│               │   │       commons-io-LICENSE.txt
+│               │   │       commons-logging-1.1.1.jar
+│               │   │       commons-logging-LICENSE.txt
+│               │   │       commons-logging.jar
+│               │   │       geronimo-stax-api_1.0_spec-1.0.1.jar
+│               │   │       httpcore-4.0.jar
+│               │   │       httpcore-LICENSE.txt
+│               │   │       jaxrpc.jar
+│               │   │       log4j-1.2.15.jar
+│               │   │       log4j-LICENSE.txt
+│               │   │       mail-1.4.jar
+│               │   │       mail-LICENSE.txt
+│               │   │       neethi-3.0.2.jar
+│               │   │       neethi-LICENSE.txt
+│               │   │       saaj.jar
+│               │   │       woden-api-1.0M9.jar
+│               │   │       woden-api-LICENSE.txt
+│               │   │       woden-impl-commons-1.0M9.jar
+│               │   │       woden-impl-commons-LICENSE.txt
+│               │   │       woden-impl-dom-1.0M9.jar
+│               │   │       woden-impl-dom-LICENSE.txt
+│               │   │       wsdl4j-1.6.2.jar
+│               │   │       wsdl4j-LICENSE.txt
+│               │   │       wsdl4j.jar
+│               │   │       wstx-asl-3.2.9.jar
+│               │   │       wstx-LICENSE.txt
+│               │   │       xmlbeans-2.3.0.jar
+│               │   │       xmlbeans-LICENSE.txt
+│               │   │       XmlSchema-1.4.7.jar
+│               │   │       XmlSchema-LICENSE.txt
+│               │   │
+│               │   ├───MainServiceClassService
+│               │   │   └───com
+│               │   │       └───jsp
+│               │   │               deploy.wsdd
+│               │   │               deploy.wsdd.bak
+│               │   │               undeploy.wsdd
+│               │   │
+│               │   ├───modules
+│               │   │       addressing-1.6.2.mar
+│               │   │       axis2-jaxws-mar-1.6.2.mar
+│               │   │       mex-1.6.2.mar
+│               │   │       modules.list
+│               │   │       mtompolicy-1.6.2.mar
+│               │   │       ping-1.6.2.mar
+│               │   │       scripting-1.6.2.mar
+│               │   │       soapmonitor-1.6.2.mar
+│               │   │
+│               │   └───services
+│               │       │   services.list
+│               │       │   version-1.6.2.aar
+│               │       │
+│               │       └───MainServiceClass
+│               │           ├───com
+│               │           │   └───jsp
+│               │           │           MainServiceClass.class
+│               │           │           package-info.class
+│               │           │
+│               │           └───META-INF
+│               │                   services.xml
+│               │
+│               └───wsdl
+│                       MainServiceClass.wsdl
+│
+├───Servers
+│   │   .project
+│   │
+│   ├───.settings
+│   │       org.eclipse.core.resources.prefs
+│   │       org.eclipse.wst.server.core.prefs
+│   │
+│   └───Tomcat v9.0 Server at localhost-config
+│           catalina.policy
+│           catalina.properties
+│           context.xml
+│           server.xml
+│           tomcat-users.xml
+│           web.xml
+│
+└───tp2SOA
+    │   .classpath
+    │   .project
+    │
+    ├───.settings
+    │       .jsdtscope
+    │       org.eclipse.core.resources.prefs
+    │       org.eclipse.jdt.core.prefs
+    │       org.eclipse.wst.common.component
+    │       org.eclipse.wst.common.project.facet.core.xml
+    │       org.eclipse.wst.jsdt.ui.superType.container
+    │       org.eclipse.wst.jsdt.ui.superType.name
+    │
+    ├───build
+    │   └───classes
+    │       └───tp2SOA
+    │               HelloWorld.class
+    │               package-info.class
+    │
+    └───src
+        └───main
+            ├───java
+            │   └───tp2SOA
+            │           HelloWorld.java
+            │           package-info.java
+            │
+            └───webapp
+                ├───META-INF
+                │       MANIFEST.MF
+                │
+                ├───WEB-INF
+                │   │   server-config.wsdd
+                │   │   web.xml
+                │   │
+                │   ├───HelloWorldService
+                │   │   └───tp2SOA
+                │   │           deploy.wsdd
+                │   │           deploy.wsdd.bak
+                │   │           undeploy.wsdd
+                │   │
+                │   └───lib
+                │           axis.jar
+                │           commons-discovery-0.2.jar
+                │           commons-logging.jar
+                │           jaxrpc.jar
+                │           saaj.jar
+                │           wsdl4j.jar
+                │
+                └───wsdl
+                        HelloWorld.wsdl

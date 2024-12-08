@@ -1,0 +1,19 @@
+package fitapp;
+
+public class calorieSuggestion {
+	 public String getCalorieIntakeSuggestion(double weight, String activityLevel) {
+	        double calorieIntake = 0;
+	        
+	        if ("sedentary".equalsIgnoreCase(activityLevel)) {
+	            calorieIntake = weight * 22; 
+	        } else if ("active".equalsIgnoreCase(activityLevel)) {
+	            calorieIntake = weight * 25;  
+	        } else if ("very active".equalsIgnoreCase(activityLevel)) {
+	            calorieIntake = weight * 28;
+	        } else {
+	            return "Invalid activity level. Please use: sedentary, active, or very active.";
+	        }
+
+	        return "Suggested daily calorie intake for your weight (" + weight + "kg) and activity level (" + activityLevel + "): " + calorieIntake + " calories.";
+	    }
+}

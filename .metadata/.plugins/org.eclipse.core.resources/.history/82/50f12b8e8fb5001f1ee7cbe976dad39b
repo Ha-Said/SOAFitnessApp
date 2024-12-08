@@ -1,0 +1,34 @@
+package com.pkg;
+
+public class WorkoutService {
+
+    private double totalCaloriesBurned;
+
+    // Default constructor (required for web services)
+    public WorkoutService() {
+        this.totalCaloriesBurned = 0.0;
+    }
+
+    // Add a workout and calculate calories burned
+    public void addWorkout(String workoutType, double durationInMinutes) {
+        double caloriesBurned = calculateCalories(durationInMinutes);
+        totalCaloriesBurned += caloriesBurned;
+        System.out.println(workoutType + " workout for " + durationInMinutes + " minutes burned " + caloriesBurned + " calories.");
+    }
+
+    // Expose calculateCalories as a public method for flexibility
+    public double calculateCalories(double durationInMinutes) {
+        double caloriesPerMinute = 10; // Fixed calorie burn rate per minute
+        return caloriesPerMinute * durationInMinutes;
+    }
+
+    // Get the total calories burned
+    public double getTotalCaloriesBurned() {
+        return totalCaloriesBurned;
+    }
+
+    // Reset the total calories burned
+    public void resetCaloriesBurned() {
+        this.totalCaloriesBurned = 0.0;
+    }
+}

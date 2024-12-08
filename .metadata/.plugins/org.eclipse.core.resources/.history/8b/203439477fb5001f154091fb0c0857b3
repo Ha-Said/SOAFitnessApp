@@ -1,0 +1,76 @@
+package pkpg;
+
+public class NutritionService {
+    // Variables to store daily nutrient intake
+    private double totalCalories = 0.0;
+    private double totalProtein = 0.0;
+    private double totalCarbs = 0.0;
+    private double totalFat = 0.0;
+
+    // Method to add food and calculate its nutritional value
+    public void addFood(String foodType, double quantityInGrams) {
+        double[] nutrients = calculateNutrients(foodType, quantityInGrams);
+        
+        totalCalories += nutrients[0];
+        totalProtein += nutrients[1];
+        totalCarbs += nutrients[2];
+        totalFat += nutrients[3];
+
+        System.out.println("Added " + quantityInGrams + "g of " + foodType + ": ");
+        System.out.println("Calories: " + nutrients[0] + ", Protein: " + nutrients[1] + "g, Carbs: " + nutrients[2] + "g, Fat: " + nutrients[3] + "g");
+    }
+
+    // Method to calculate the calories, protein, carbs, and fat of food based on food type and quantity
+    private double[] calculateNutrients(String foodType, double quantityInGrams) {
+        double calories = 0.0;
+        double protein = 0.0;
+        double carbs = 0.0;
+        double fat = 0.0;
+
+        // Nutrient values are per 100 grams of the food item (examples)
+        switch (foodType.toLowerCase()) {
+            case "chicken breast":
+                calories = 165;
+                protein = 31;
+                carbs = 0;
+                fat = 3.6;
+                break;
+            case "apple":
+                calories = 52;
+                protein = 0.3;
+                carbs = 14;
+                fat = 0.2;
+                break;
+            case "avocado":
+                calories = 160;
+                protein = 2;
+                carbs = 9;
+                fat = 15;
+                break;
+            case "rice":
+                calories = 130;
+                protein = 2.7;
+                carbs = 28;
+                fat = 0.3;
+                break;
+            default:
+                calories = 100;  // Default values for unknown food types
+                protein = 2;
+                carbs = 20;
+                fat = 1;
+                break;
+        }
+
+        // Scale the nutrients based on the quantity in grams
+        double scale = quantityInGrams / 100.0;
+        return new double[]{calories * scale, protein * scale, carbs * scale, fat * scale};
+    }
+
+    // Method to get total nutrition values for the day
+    public void getDailyNutrition() {
+        System.out.println("Total calories consumed today: " + totalCalories);
+        System.out.println("Total protein consumed today: " + totalProtein + "g");
+        System.out.println("Total carbs consumed today: " + totalCarbs + "g");
+        System.out.println("Total fat consumed today: " + totalFat + "g");
+    }
+}

@@ -1,0 +1,42 @@
+package pkpg;
+
+public class UserService {
+    private String userName;
+    private double dailyCalories;
+    private double dailyProtein;
+    private double dailyCarbs;
+    private double dailyFat;
+
+    public UserService(String userName) {
+        this.userName = userName;
+        this.dailyCalories = 0.0;
+        this.dailyProtein = 0.0;
+        this.dailyCarbs = 0.0;
+        this.dailyFat = 0.0;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setNutritionData(double calories, double protein, double carbs, double fat) {
+        this.dailyCalories = calories;
+        this.dailyProtein = protein;
+        this.dailyCarbs = carbs;
+        this.dailyFat = fat;
+    }
+    public void getNutritionData() {
+        System.out.println("Nutrition Data for " + userName + ":");
+        System.out.println("Total calories: " + dailyCalories);
+        System.out.println("Total protein: " + dailyProtein + "g");
+        System.out.println("Total carbs: " + dailyCarbs + "g");
+        System.out.println("Total fat: " + dailyFat + "g");
+    }
+
+    public void resetNutritionData() {
+        this.dailyCalories = 0.0;
+        this.dailyProtein = 0.0;
+        this.dailyCarbs = 0.0;
+        this.dailyFat = 0.0;
+    }
+}

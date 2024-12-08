@@ -1,0 +1,7 @@
+package MainServiceClass;
+
+public class Snippet {
+	public String helloWorldd() {
+			return "hello world";
+}
+

@@ -1,0 +1,17 @@
+package com.jsp;
+
+import org.apache.axis2.context.MessageContext;
+import org.apache.axis2.AxisFault;
+import org.apache.axis2.rpc.receivers.RPCMessageReceiver;
+
+public class MainServiceClass {
+    public int Add(Integer a, Integer b) throws AxisFault {
+        if (a == null || b == null) {
+            AxisFault fault = new AxisFault("Missing Arguments", "Both integers must be provided.");
+            // Optionally, you can set a fault code
+            fault.setFaultCode("MISSING_ARGUMENTS");
+            throw fault;
+        }
+        return a + b;
+    }
+}

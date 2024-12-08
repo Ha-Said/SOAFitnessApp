@@ -1,0 +1,20 @@
+package fitapp;
+
+public class ACT {
+	public String ACTI(double weight, int activityLevel) {
+        double calorieIntake = 0;
+        
+        if (activityLevel >= 1 && activityLevel <= 3) {
+            calorieIntake = weight * 22; 
+        } else if (activityLevel >= 4 && activityLevel <= 6) {
+            calorieIntake = weight * 25; 
+        } else if (activityLevel >= 7 && activityLevel <= 10) {
+            calorieIntake = weight * 28;  
+        } else {
+            return "Invalid activity level. Please provide a value between 1 and 10.";
+        }
+
+        return "Suggested daily calorie intake for your weight (" + weight + "kg) and activity level (" + activityLevel + "): " + calorieIntake + " calories.";
+    }
+
+}

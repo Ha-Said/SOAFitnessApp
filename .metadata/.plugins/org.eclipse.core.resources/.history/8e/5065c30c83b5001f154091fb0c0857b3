@@ -1,0 +1,67 @@
+package pkpg;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public class UserService {
+
+    private String userName;
+    private double dailyCalories;
+    private double dailyProtein;
+    private double dailyCarbs;
+    private double dailyFat;
+
+    // Default constructor (required for web services)
+    public UserService() {
+        this.userName = "Default User";
+        this.dailyCalories = 0.0;
+        this.dailyProtein = 0.0;
+        this.dailyCarbs = 0.0;
+        this.dailyFat = 0.0;
+    }
+
+    // Parameterized constructor for initialization
+    public UserService(String userName) {
+        this.userName = userName;
+        this.dailyCalories = 0.0;
+        this.dailyProtein = 0.0;
+        this.dailyCarbs = 0.0;
+        this.dailyFat = 0.0;
+    }
+
+    @WebMethod
+    public String getUserName() {
+        return userName;
+    }
+
+    @WebMethod
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    @WebMethod
+    public void setNutritionData(double calories, double protein, double carbs, double fat) {
+        this.dailyCalories = calories;
+        this.dailyProtein = protein;
+        this.dailyCarbs = carbs;
+        this.dailyFat = fat;
+    }
+
+    @WebMethod
+    public String getNutritionData() {
+        return "Nutrition Data for " + userName + ":\n" +
+                "Total calories: " + dailyCalories + "\n" +
+                "Total protein: " + dailyProtein + "g\n" +
+                "Total carbs: " + dailyCarbs + "g\n" +
+                "Total fat: " + dailyFat + "g";
+    }
+
+    @WebMethod
+    public void resetNutritionData() {
+        this.dailyCalories = 0.0;
+        this.dailyProtein = 0.0;
+        this.dailyCarbs = 0.0;
+        this.dailyFat = 0.0;
+    }
+}

@@ -1,0 +1,14 @@
+package pkpg;
+
+public class FitnessService {
+
+    // Calculate calories burned based on activity duration
+    public int calculateCaloriesBurned(int activityDurationMinutes) {
+        return activityDurationMinutes * 5; // Example: 5 calories per minute
+    }
+
+    // Suggest recommended activity duration for a calorie target
+    public int recommendActivityDuration(int calorieTarget) {
+        return calorieTarget / 5; // Example: 5 calories per minute
+    }
+}

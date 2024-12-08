@@ -1,0 +1,5 @@
+package MainServiceClass;
+
+public String helloWorldd() {
+	return "hello world";
+}

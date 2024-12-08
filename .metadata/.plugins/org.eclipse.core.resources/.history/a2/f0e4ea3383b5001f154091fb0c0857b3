@@ -1,0 +1,19 @@
+package pkpg;
+
+
+public class WorkoutService {
+    private double totalCaloriesBurned = 0.0;
+
+    public void addWorkout(String workoutType, double durationInMinutes) {
+        double caloriesBurned = calculateCalories( durationInMinutes);
+        totalCaloriesBurned += caloriesBurned;
+        System.out.println(workoutType + " workout for " + durationInMinutes + " minutes burned " + caloriesBurned + " calories.");
+    }
+    private double calculateCalories( double durationInMinutes) {
+        double caloriesPerMinute=10;
+        return caloriesPerMinute * durationInMinutes;
+    }
+    public double getTotalCaloriesBurned() {
+        return totalCaloriesBurned;
+    }
+}

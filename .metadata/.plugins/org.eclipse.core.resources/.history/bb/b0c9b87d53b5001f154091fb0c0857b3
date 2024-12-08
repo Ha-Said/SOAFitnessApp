@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/ws/example/TempConverter.java=UTF-8
+encoding//src/main/java/ws/example/TempConverterPortType.java=UTF-8
+encoding//src/main/java/ws/example/TempConverterSoap11BindingStub.java=UTF-8
+encoding//src/main/java/ws/example/TempConverterSoap12BindingStub.java=UTF-8
+encoding/<project>=UTF-8

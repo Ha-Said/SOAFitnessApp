@@ -1,0 +1,15 @@
+package com.jsp;
+
+import java.util.Scanner;
+
+public class MainServiceClass {
+    public int Add() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the first integer:");
+        int a = scanner.nextInt();
+        System.out.println("Enter the second integer:");
+        int b = scanner.nextInt();
+        scanner.close(); // Close the scanner after use
+        return a + b;
+    }
+}

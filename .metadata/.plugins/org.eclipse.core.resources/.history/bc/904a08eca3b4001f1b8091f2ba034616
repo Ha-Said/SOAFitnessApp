@@ -1,0 +1,7 @@
+package tp2SOA;
+
+public class HelloWorld {
+	public String helloWorldd() {
+		return "hello world"
+	}
+}

@@ -1,0 +1,10 @@
+package com.jsp;
+
+public class MainServiceClass {
+	public int Add(int a, int b) {
+	    if (a == 0 || b == 0) {
+	        throw new IllegalArgumentException("Both arguments must be provided and non-zero.");
+	    }
+	    return a + b;
+	}
+}

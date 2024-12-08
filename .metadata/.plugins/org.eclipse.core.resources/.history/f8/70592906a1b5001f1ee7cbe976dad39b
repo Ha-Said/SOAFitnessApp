@@ -1,0 +1,22 @@
+package fitapp;
+
+public class NAME {
+
+	  public String personalizedWorkout(int intensityLevel, String customName) {
+	        if (intensityLevel < 1 || intensityLevel > 10) {
+	            return "Please provide a valid intensity level between 1 and 10.";
+	        }
+
+	        String workoutSuggestion = "";
+
+	        // Suggest workout based on intensity level
+	        if (intensityLevel <= 3) {
+	            workoutSuggestion = "Low intensity workout for " + customName + ": 20 minutes of light walking or stretching.";
+	        } else if (intensityLevel <= 6) {
+	            workoutSuggestion = "Moderate intensity workout for " + customName + ": 30 minutes of jogging or cycling.";
+	        } else {
+	            workoutSuggestion = "High intensity workout for " + customName + ": 45 minutes of HIIT (High-Intensity Interval Training).";
+	        }
+
+	        return workoutSuggestion;
+	    }}

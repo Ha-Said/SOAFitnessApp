@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://jsp.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://jsp.com" xmlns:intf="http://jsp.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4.1-SNAPSHOT
+Built on Nov 07, 2023 (07:57:58 UTC)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://jsp.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="Add">
+    <complexType>
+     <sequence>
+      <element name="a" type="xsd:int"/>
+      <element name="b" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="AddResponse">
+    <complexType>
+     <sequence>
+      <element name="AddReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="AddResponse">
+
+      <wsdl:part element="impl:AddResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="AddRequest">
+
+      <wsdl:part element="impl:Add" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="MainServiceClass">
+
+      <wsdl:operation name="Add">
+
+         <wsdl:input message="impl:AddRequest" name="AddRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:AddResponse" name="AddResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="MainServiceClassSoapBinding" type="impl:MainServiceClass">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="Add">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="AddRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="AddResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="MainServiceClassService">
+
+      <wsdl:port binding="impl:MainServiceClassSoapBinding" name="MainServiceClass">
+
+         <wsdlsoap:address location="http://localhost:8080/Axis2WSTest/services/MainServiceClass"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
